@@ -10,7 +10,7 @@ const YourPet = ({ yourPets, setYourPets }) => {
   useEffect(() => {
     const fetchYourPets = async () => {
       try {
-        const response = await axios.get(`${API_URL}/yourPets/${id}`);
+        const response = await axios.get(`${API_URL}/yourPets`);
         setYourPets(response.data);
       } catch (error) {
         console.error('Error fetching pet:', error);
