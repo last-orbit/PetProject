@@ -1,8 +1,17 @@
-# React + Vite
+# PetPals
+![Pet Pals](https://github.com/user-attachments/assets/1f7a18ef-0cfa-4a5a-b22a-e5ca4353f12c)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+PetPals is an application created as part of the Ironhack Module 2 Project. The requirement was to create a Single Page Application (SPA) using React, consisting of multiple views. The application uses a mock backend and can perform all CRUD (Create, Read, Update, Delete) operations on that API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
+
+PetPals is like Tinder for your pets! It allows your pet to meet up with other pets and become pals. The application lets users create profiles for their pets, browse other pet profiles, and manage their pet's interactions.
+
+## Features 
+
+- **User Authentication**: Allows users to sign up, log in, and manage their accounts.
+- **Pet Profile Creation**: Users can create and update profiles for their pets, including photos and descriptions.
+- **Browse Pets**: Users can browse through profiles of other pets, view their details, and send pal requests.
+- **Pal Requests**: Users can send, accept, and decline pal requests from other pets.
+- **CRUD Operations**: All pet profiles and pal requests can be created, read, updated, and deleted using the application's interface.
